@@ -8,7 +8,29 @@
     <title>World Clock</title>
   </head>
   <body>
-    <h1>World Clock</h1>
+    <div class="container">
+      <h1>World Clock</h1>
+
+      <select class="city" name="city" id="city">
+        <option value="">Select a city...</option>
+        <option value="losAngeles">Los Angeles</option>
+        <option value="sydney">Sydney</option>
+        <option value="tokyo">Tokyo</option>
+        <option value="paris">Paris</option>
+      </select>
+
+      <div class="city">
+        <h2>🇺🇸 Los Angeles</h2>
+        <div class="date" id="date">wed 11 oct 2022</div>
+        <div class="time" id="time">12:45pm</div>
+      </div>
+
+      <div class="city">
+        <h2>🇦🇺 Sydney</h2>
+        <div class="date" id="date">wed 11 oct 2022</div>
+        <div class="time" id="time">12:45pm</div>
+      </div>
+    </div>
     <footer>
       Coded by Lizzie Keegan and is open sourced on
       <a href="https://github.com/LizzieKeegan/world-clock" target="_blank"

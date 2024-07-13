@@ -1,5 +1,10 @@
 body {
-  text-align: center;
   background-color: beige;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+  text-align: center;
+}
+footer {
+  text-align: center;
 }
