@@ -1,5 +1,5 @@
 body {
-  background-color: beige;
+  background-color: #f9f7fe;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 h1 {
@@ -7,4 +7,47 @@ h1 {
 }
 footer {
   text-align: center;
+  margin-top: 15px;
+  font-size: x-small;
+}
+
+select {
+  padding: 10px;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  background-color: #f9f7fe;
+  color: #443963;
+  border-width: 1px;
+  border-color: #60508b;
+  border-radius: 15px;
+}
+.container {
+  background-color: white;
+  padding: 20px;
+  padding-top: 5px;
+  max-width: 70%;
+  margin: 0 auto;
+  margin-top: 40px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px #5d547563;
+}
+.city {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+h2 {
+  margin: 0;
+}
+.date {
+  opacity: 0.5;
+}
+.time {
+  font-size: 22px;
+  font-weight: bold;
+}
+.time small {
+  font-size: 18px;
 }
