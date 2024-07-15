@@ -58,3 +58,6 @@ footer {
 .time small {
   font-size: 30px;
 }
+.emoji {
+  font-family: "Noto Color Emoji";
+}
